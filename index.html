@@ -24,14 +24,15 @@
             <h1> {jasonadalwhite} </h1>
                 </div>
             <button class = "nav-toggle" aria-label = "toggle-navigation">
-                <span class = "hamburger"</span>
+                <span class = "hamburger"></span>
             </button> <!--Navigation button!-->
             <nav class = "nav">
                 <ul class = "nav_list">
                     <li class = "nav__item"><a href="#home" class = "nav__link">Home</a></li>
                     <li class = "nav__item"><a href="#services" class = "nav__link">What I Do</a></li>
-                    <li class = "nav__item"><a href=#aboutme" class = "nav__link">About Me</a></li>
+                    <li class = "nav__item"><a href=#about class = "nav__link">About Me</a></li>
                     <li class = "nav__item"><a href="#projects" class = "nav__link">Projects</a></li>
+                    <li class = "nav__item"><a href="#contact" class = "nav__link">Contact Me</a></li>
                 </ul>
             </nav>
         </header>
@@ -90,11 +91,11 @@
     <!-- Projects -->
     <section class = "my-projects" id="projects">
         <h2 class = "section__title section__title--projects">My projects</h2>
-        <p class = "section__subtitle section__subtitle--projects">A list of projects I've completed!</p>
+        <p class = "section__subtitle section__subtitle--projects">A list of projects I'll complete in the future!</p>
 
         <div class = "portfolio">
             <!-- Portfolio item 01 -->
-            <a href="#" class = "portfolio__item">
+            <a href="portfolio-item.html" class = "portfolio__item">
                 <!-- Add image to portfolio -->
                 <img src = "./assets/images/port-1.jpg" alt="" class = "portfolio__img">
             </a>
@@ -133,7 +134,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class = "footer">
+    <footer class = "footer" id = "contact">
         <a href="mailto:jasonadal354@gmail.com" class="footer-link">jasonadal354@gmail.com</a>
         <ul class = "social-list">
             <li class = "social-list__item"><a class = "social-list__link" href="https://github.com/JasonAdalWhite">
@@ -148,5 +149,9 @@
         </ul>
 
     </footer>
+
+    <script src = "js/index.js"></script>
+
     </body>
+
 </html>
