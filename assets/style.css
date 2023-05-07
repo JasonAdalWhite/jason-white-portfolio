@@ -332,6 +332,7 @@ header {
 
 .service li {
     list-style-type: none;
+    display: inline-block;
 }
 
 @media (min-width: 4000px){
